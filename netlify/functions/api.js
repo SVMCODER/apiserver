@@ -10,6 +10,6 @@ exports.handler = async function(event, context) {
             // Include CORS headers just in case you are calling this from a frontend
             "Access-Control-Allow-Origin": "*", 
         },
-        body: "Your development-mode credits have been merged with your Live Mode credits, and the available allocation is insufficient to continue this operation. System diagnostics report that no valid backups were found, the primary dataserver has been flagged as breached, and multiple configuration conflicts have been detected. The current environment is running on Linux and has entered a restricted state to prevent further operations. Please upgrade to a higher plan to restore sufficient credits and proceed with the requested operation.\n\nOS: Linux\nStatus: CRITICAL\nError Code: 501"
+        body: "Server returned Error, the API seems down"
     };
 };
